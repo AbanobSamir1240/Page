@@ -1,6 +1,7 @@
 ﻿body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 @font-face {
   font-family: Frutiger;
@@ -14,7 +15,10 @@
   font-family: Frutiger55;
   src: url("../fonts/Frutiger-LT-Arabic-55-Roman.ttf");
 }
-
+@font-face {
+  font-family: LucidaGrandeBold;
+  src: url("../fonts/LucidaGrande-Bold.ttf");
+}
 .nav-header {
   background-color: #152536;
   margin: 0;
@@ -474,9 +478,11 @@ a:hover {
   height: 40px;
   width: 40px;
   padding: 0;
+  cursor: pointer;
 }
 .m-top-5 button i {
   color: #fff;
+  cursor: pointer;
 }
 .sector-text {
   font-family: GE_Dinar;
@@ -524,9 +530,18 @@ a:hover {
 #myTabContent .active {
   background-color: #fff;
 }
+
 #myTab li {
-  padding: 0 5px;
+  margin: 0 -16px;
+  padding: 0 20px;
   border-radius: 0;
+  border-bottom: 0;
+}
+#myTab li a {
+  border: 1px solid;
+  border-color: #d3dae2 #e9ecef #dee2e6;
+  border-bottom: 0;
+  padding: 0.5rem 26px;
 }
 #carouselExampleIndicators3 .btn:hover {
   background-color: #204056;
@@ -534,4 +549,62 @@ a:hover {
 }
 #carouselExampleControls6 {
   font-family: GE_Dinar;
+}
+.dates h4 {
+  color: #c39244;
+}
+.dates h6 {
+  color: #526b7c;
+}
+.dates .active {
+  background-color: #204056 !important;
+}
+.dates .active h4,
+.dates .active h6 {
+  color: #fff !important;
+}
+#carouselExampleControls6 .carousel-control-next,
+#carouselExampleControls6 .carousel-control-prev {
+  top: 35px;
+}
+#carouselExampleControls6 .carousel-control-prev-icon,
+#carouselExampleControls6 .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#timeline div.active .date::before {
+  left: 99%;
+  content: "";
+  top: 0%;
+  background-color: #fff;
+  border: 2px solid #2b495e;
+}
+#timeline div .date::before {
+  left: 99.5%;
+  content: "";
+  top: 0%;
+  background-color: #fff;
+  border: 2px solid #bb842b;
+}
+#timeline div .text p {
+  margin: 0;
+  color: #b9b9b9;
+}
+.custome-timeline .col-10 {
+  font-family: GE_Dinar;
+}
+#timeline .active .date h5 {
+  color: #204056;
+}
+#timeline .date h5 {
+  color: #bb842b;
+}
+#para {
+  font-family: Frutiger55;
+  color: #5e5e5e;
+}
+#para-img {
+  border: 1px solid #dcddde;
+  padding: 5px;
 }
