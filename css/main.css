@@ -1,0 +1,537 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Frutiger;
+  src: url("../fonts/Frutiger-LT-Arabic-65-Bold.ttf");
+}
+@font-face {
+  font-family: GE_Dinar;
+  src: url("../fonts/GE_Dinar_Two_Medium.otf");
+}
+@font-face {
+  font-family: Frutiger55;
+  src: url("../fonts/Frutiger-LT-Arabic-55-Roman.ttf");
+}
+
+.nav-header {
+  background-color: #152536;
+  margin: 0;
+  padding: 0;
+}
+.nav-header ul li {
+  margin: 0px 5px;
+  padding: 0px 3px;
+}
+.input-search-text {
+  text-align: right;
+  color: #fff;
+  font-family: GE_Dinar;
+  background: #152536;
+  border: 0;
+}
+.fa {
+  color: #485968;
+  margin: 5px 2px;
+}
+.nav-follow {
+  color: #fff;
+  font-family: GE_Dinar;
+}
+.active .fa {
+  color: #fff !important;
+}
+.active {
+  background-color: #b6822b;
+}
+.nav-e {
+  font-family: Frutiger;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+.nav-header form .fa {
+  color: #b6822b;
+}
+.first-section {
+  background: url("../img/shutterstock_1096440287.png");
+  text-align: right;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.logo-img {
+  background: url("../img/Group\ 128.png");
+}
+.first-section .row {
+  padding-top: 20px;
+}
+.nav-titles li {
+  margin: 0 7px;
+}
+.nav-titles li a:hover {
+  color: #aa7a2f;
+}
+.nav-titles li a {
+  color: #fff;
+  font-family: GE_Dinar;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  background-color: #c08d3c;
+  min-width: 16rem;
+  margin: 0.125rem -143px 0;
+  text-align: right;
+  padding-top: 0rem;
+  padding-right: 0px;
+  padding-bottom: 0.5rem;
+  padding-left: 0px;
+}
+.dropdown-item {
+  padding: 0.5rem 1.5rem;
+}
+.dropdown-menu .dropdown-item:hover {
+  background: #d8972d;
+  color: #fff;
+}
+.dropdown-menu .active {
+  background: #d99c37;
+}
+.dropdown-divider {
+  border: 1px solid #cca15a;
+  margin: 0;
+}
+.title {
+  color: #ffffff;
+  font-family: GE_Dinar;
+}
+.title-side {
+  font-family: Frutiger55;
+  margin: 20px 0;
+  color: #9db7ce;
+}
+.btn-more {
+  font-family: Frutiger55;
+  margin: 5px 0;
+  color: #547a9a !important;
+  border: 1px solid #547a9a;
+  border-radius: 0;
+  padding: 6px 43px;
+}
+.btn-more :hover {
+  background-color: #547a9a !important;
+  border-color: #547a9a !important;
+}
+.carousel-inner .active {
+  background-color: transparent;
+}
+
+.carousel-item {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE 8 */
+  filter: alpha(opacity=100); /* IE 5-7 */
+  -moz-opacity: 1; /* Netscape */
+  -khtml-opacity: 1; /* Safari 1.x */
+  opacity: 1;
+}
+#carouselExampleControls {
+  background-color: rgba(21, 37, 54, 0.5);
+  margin: auto;
+  text-align: center;
+  /* background-color: #152536; */
+  /* opacity: 0.5; */
+}
+#carouselExampleControls {
+  color: #fff;
+}
+#slider {
+  padding: 0;
+  font-family: GE_Dinar;
+}
+.carousel-item img {
+  border: 4px #fff solid;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-inner span {
+  padding: 0;
+  margin: auto;
+}
+.date-slider {
+  color: #4c657b;
+  font-family: GE_Dinar;
+  font-size: 0.75rem;
+  text-align: right;
+}
+.news {
+  background-color: #bb842b;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.news .row {
+  margin: auto;
+  padding: 15px 0;
+}
+.news h3 {
+  color: #fff;
+}
+.news span {
+  color: #e0c69a;
+}
+.carousel-control-next-news,
+.carousel-control-prev-news {
+  width: 10%;
+  color: #bb842b;
+}
+.second-section-img {
+  background: url("../img/shutterstock_788424676.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-bottom: 3px solid #f3f3f3;
+  border-top: 3px solid #f3f3f3;
+  border-right: 3px solid black;
+  margin: auto; */
+}
+.second-section-img p {
+  margin: auto;
+}
+.section {
+  font-size: 1.25rem;
+}
+.section span {
+  margin-right: 7px;
+}
+.second-section-img .section {
+  font-family: GE_Dinar;
+  color: #ffffff;
+  margin-top: 50%;
+  margin-right: 0%;
+  margin-bottom: 50%;
+  margin-left: 15%;
+}
+.container {
+  margin-top: 30px;
+}
+.section2-header {
+  text-align: right;
+}
+.sectin2-background {
+  padding-top: 50px;
+}
+.section2-header h4 {
+  font-family: GE_Dinar;
+  color: #204056;
+  margin-right: 15px;
+}
+.section-of-services .col-3 {
+  background-color: #204056;
+  color: #e7eaed;
+  font-family: GE_Dinar;
+  padding: 0;
+  /* font-size: 0.9rem; */
+}
+.second-section-image {
+  background: url("../img/shutterstock_637916374.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 190px;
+  background-position-y: -63px;
+  padding: 30px 0;
+}
+.section-of-services .col-3 a {
+  color: #e7eaed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section-of-services .col-9 {
+  font-family: GE_Dinar;
+  background-color: #f1f3f4;
+  padding: 10px 15px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  /* background-color: #bb842b; */
+  border-radius: 0;
+}
+.nav-pills:first-child {
+  margin-top: 30px;
+}
+.nav-pills:last-child {
+  margin-bottom: 30px;
+}
+.pills {
+  border: 1px solid #2c536e;
+  margin: 0;
+}
+#carouselExampleIndicators3 .carousel-indicators {
+  margin-top: 15px;
+}
+#carouselExampleIndicators3 .carousel-indicators li {
+  background-color: #d0d3d6;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+#carouselExampleIndicators3 .carousel-indicators .active {
+  background-color: #bb842b !important;
+  height: 22px;
+  width: 22px;
+}
+.tab-content .active {
+  background-color: #f1f3f4;
+}
+.btn {
+  border-radius: 0;
+}
+/* .second-section-img .row {
+  margin-left: -788px;
+  border: 3px solid #f3f3f3;
+  height: 400px;
+  width: 1075px;
+  margin-top: 50px;
+} */
+#carouselExampleIndicators3 .btn {
+  border: 1px solid #bb842b;
+  color: #bb842b;
+  font-size: 0.95rem;
+}
+#carouselExampleIndicators3 .btn-primary {
+  background-color: #204056;
+  border: 1px solid #204056;
+  color: #e0e4e7;
+}
+.card {
+  border-radius: 0;
+}
+
+#carouselExampleIndicators3 .carousel-inner {
+  padding-top: 19px;
+}
+.section-of-services .nav-pills .active {
+  color: #fff;
+  background-color: #bb842b;
+}
+.card {
+  border: 0;
+}
+#news-image {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #bb842b;
+}
+#news-image::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background: #fff;
+  transition: 0.5s ease-in-out;
+  transform: scaleY(1);
+  transition-delay: 0.5s;
+}
+#news-image:hover::before {
+  transform: scaleY(0);
+}
+#news-image::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background: #fff;
+  transition: 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+#news-image:hover::after {
+  transform: scaleX(0);
+}
+#news-image img {
+  position: relative;
+  z-index: 3;
+}
+.card-date {
+  font-family: GE_Dinar;
+  color: #5e7991;
+  font-size: 0.75rem;
+  display: block;
+  margin-bottom: 5px !important;
+  padding-bottom: 15px !important;
+}
+.card-title {
+  font-family: GE_Dinar;
+  color: #224157;
+  margin-bottom: 5px !important;
+  padding-bottom: 15px !important;
+}
+.card-text {
+  font-family: Frutiger55;
+  color: #797979;
+}
+#carouselExampleIndicators4 .card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#carouselExampleIndicators5 .card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#carouselExampleIndicators5 img {
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+#carouselExampleIndicators5 img:hover {
+  transform: scale(1.09);
+}
+#carouselExampleIndicators4 .btn {
+  border: 1px solid #bb842b;
+  color: #bb842b;
+  font-size: 0.95rem;
+}
+#carouselExampleIndicators4 .btn-primary {
+  background-color: #204056;
+  border: 1px solid #204056;
+  color: #e0e4e7;
+}
+#carouselExampleIndicators5 .btn {
+  border: 1px solid #bb842b;
+  color: #bb842b;
+  font-size: 0.95rem;
+}
+#carouselExampleIndicators5 .btn-primary {
+  text-align: right;
+  background-color: #204056;
+  border: 1px solid #204056;
+  color: #e0e4e7;
+}
+#carouselExampleIndicators4 .carousel-indicators {
+  margin-top: 15px;
+}
+#carouselExampleIndicators4 .carousel-indicators li {
+  background-color: #d0d3d6;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+#carouselExampleIndicators5 .carousel-indicators {
+  margin-top: 15px;
+}
+#carouselExampleIndicators5 .carousel-indicators li {
+  background-color: #d0d3d6;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+#carouselExampleIndicators4 .carousel-indicators .active {
+  background-color: #bb842b !important;
+  height: 22px;
+  width: 22px;
+}
+#carouselExampleIndicators5 .carousel-indicators .active {
+  background-color: #bb842b !important;
+  height: 22px;
+  width: 22px;
+}
+#carouselExampleIndicators5:hover .card-title {
+  color: #bc862f;
+}
+#carouselExampleIndicators5:hover .btn {
+  background-color: #bb842b;
+  color: #f7f2e9;
+  border: 0px;
+}
+#carouselExampleIndicators4:hover .card-title {
+  color: #bc862f;
+}
+#carouselExampleIndicators4:hover .btn {
+  background-color: #bb842b;
+  color: #f7f2e9;
+  border: 0px;
+}
+.m-top-5 {
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.m-top-5 button {
+  border-radius: 100%;
+  border: 0;
+  background-color: #bb842b;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+.m-top-5 button i {
+  color: #fff;
+}
+.sector-text {
+  font-family: GE_Dinar;
+  color: #bd8832;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.active-sector .sector-text {
+  color: #204056;
+}
+.sector:hover .sector-img {
+  color: #204056;
+  background-color: #204056;
+}
+.sector:hover .sector-text {
+  color: #204056;
+}
+.active-sector .sector-img {
+  color: #204056;
+  background-color: #204056;
+}
+
+.sector-img {
+  background-color: #f1f3f4;
+  padding: 33px;
+  border: 1px solid #e3eaed;
+}
+.sectors {
+  padding-bottom: 40px;
+  border-bottom: 3px solid #f3f3f3;
+  border-top: 3px solid #f3f3f3;
+  border-left: 3px solid #f3f3f3;
+}
+.calendar h4 {
+  display: inline;
+  font-family: GE_Dinar;
+  color: #204056;
+  padding-top: 50%;
+  padding-right: 13px;
+}
+.dates {
+  margin-top: 30px;
+}
+#myTabContent .active {
+  background-color: #fff;
+}
+#myTab li {
+  padding: 0 5px;
+  border-radius: 0;
+}
+#carouselExampleIndicators3 .btn:hover {
+  background-color: #204056;
+  color: #fff;
+}
+#carouselExampleControls6 {
+  font-family: GE_Dinar;
+}
