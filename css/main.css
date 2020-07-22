@@ -497,9 +497,11 @@ a:hover {
 .sector:hover .sector-img {
   color: #204056;
   background-color: #204056;
+  cursor: pointer;
 }
 .sector:hover .sector-text {
   color: #204056;
+  cursor: pointer;
 }
 .active-sector .sector-img {
   color: #204056;
@@ -510,6 +512,7 @@ a:hover {
   background-color: #f1f3f4;
   padding: 33px;
   border: 1px solid #e3eaed;
+  transition: 0.2s;
 }
 .sectors {
   padding-bottom: 40px;
